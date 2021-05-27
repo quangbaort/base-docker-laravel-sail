@@ -12,7 +12,7 @@
     + run: docker-compose run --rm php npm install
     + run: docker-compose run --rm php bash
     + run2: cp .env.example .env
-    + run2: php artisan migrate:fresh --seed
+    + run2: php artisan migrate
     + run2: php artisan key:generate
     + open browser url : http://localhost
 
