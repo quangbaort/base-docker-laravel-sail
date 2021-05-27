@@ -2,6 +2,7 @@
 **Install env**
 
     # install doccker
+    + server unbuntu : open port 80(http) , 3306(mysql) 
     + open project with cmd
     + run for linux(or wsl2): sed -i -e 's/^WWWUSER=.*$/WWWUSER='$(id -u)'/' -e 's/^WWWGROUP=.*$/WWWGROUP='$(id -g)'/' ./.env
     + run for windows       : (skip command)
